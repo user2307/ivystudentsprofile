@@ -1,0 +1,38 @@
+<?php
+//$lifetime=1 * 365 * 24 * 60 * 60;
+ // session_start();
+//  setcookie(session_name(),session_id(),time()+$lifetime);
+include "../database.php";
+$email=$_POST['email'];
+$name=$_POST['name'];
+$fid=$_POST['f_id'];
+
+$email="vand@gmail.com";
+$name="van";
+$fid="123";
+
+$sql = "SELECT f_id FROM LoginDetails WHERE f_id = ".$fid;
+$select = mysqli_query($conn, $sql);
+if (!(mysqli_num_rows($select) > 0)) {
+$sql1 = "SELECT email FROM LoginDetails WHERE email = '".$email."'";
+$select1 = mysqli_query($conn, $sql1);
+if (mysqli_num_rows($select1) > 0) {
+$sql = "UPDATE LoginDetails SET f_id=".$fid." WHERE email='".$email."'";
+
+}
+else
+{echo "pp";
+$sql = "INSERT INTO LoginDetails(`name`,`email`,`f_id`) VALUES ('".$name."', '".$email."',$f_id)";
+
+}
+if ($conn->query($sql) === TRUE) {
+    echo "inserted";
+}
+   
+}
+else
+echo "exists";
+
+
+
+?>

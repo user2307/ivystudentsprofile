@@ -1,0 +1,98 @@
+<?php
+$lifetime=1 * 365 * 24 * 60 * 60;
+  session_start();
+  setcookie(session_name(),session_id(),time()+$lifetime);
+$_SESSION['url'] = $_SERVER['REQUEST_URI'];
+$id=$_SESSION['id'];
+if(!$id)
+header("Location:http://www.ivystudentsprofile.com");
+include "../database.php";
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Notifications - Ivystudentsprofile</title>
+	<meta name="description" content="Correct your spelling, grammar, and mechanical errors by reaching out to reviewers on Ivystudentsprofile and get great suggestions about your essay's structure and content.">
+	<meta name="author" content="Ivystudentsprofile">
+<?php include "../css/includecsshead.php"; ?>
+<style>
+.form-control:focus{
+border:1px solid #d34932;
+}
+.pinInfo li a{
+color:#d34932;
+}
+@media only screen and (min-width: 751px) {
+div.input-group.input-group-sm{
+padding:30px 11px;
+}
+
+}
+@media only screen and (max-width: 750px) {
+div.input-group.input-group-sm{
+padding:0  !important;
+}
+
+}
+
+</style>
+</head>
+<body class="activateAppearAnimation">
+<!-- Primary Page Layout 
+	================================================== -->
+	<!-- globalWrapper -->
+	<div id="globalWrapper">
+<?php if($id)
+include '../header1.php';
+$sql = "SELECT * FROM RequestsReviews WHERE reviewer_id =$id";
+$query = mysqli_query($conn, $sql);
+while($row = mysqli_fetch_assoc($query)){
+$sender_id=$row['sender_id'];
+$accepted=$row['accepted'];
+
+
+}
+
+?>
+<section id="page">
+<section id="content" class="mt30 pb30">
+				<div class="container">
+					<div class="bs-docs-section">
+
+						<h2 id="tabs-examples">Essay Review Requests</h2>
+						<div class="bs-example bs-example-tabs mb30">
+							<ul id="myTab" class="nav nav-tabs">
+								<li class="active"><a href="#all" data-toggle="tab">All</a></li>
+								<li ><a href="#accepted" data-toggle="tab">Accepted</a></li>
+ <li ><a href="#pending" data-toggle="tab">Pending</a></li>								
+</li>
+							</ul>
+							<div id="myTabContent" class="tab-content">
+								<div class="tab-pane fade" id="all">
+									<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+								</div>
+								<div class="tab-pane fade" id="accepted">
+									<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+								</div>
+								<div class="tab-pane fade" id="pending">
+									<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+								</div>
+							</div>
+						</div><!-- /example -->
+</div></div></section>
+</section>	
+<?php include '../footer.php'; ?>	
+							</div>
+			<!-- global wrapper -->
+<?php
+include '../js/commonjs.php'; 
+include 'analyticstracking.php'; ?>
+</body>
+</html>
+
