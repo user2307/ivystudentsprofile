@@ -1,0 +1,97 @@
+[24-Sep-2015 13:38:58 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[24-Sep-2015 13:39:28 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[08-Oct-2015 01:31:38 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[08-Oct-2015 01:37:13 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[08-Oct-2015 01:41:43 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[08-Oct-2015 01:59:25 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Invalid request token.' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[08-Oct-2015 02:04:05 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[08-Oct-2015 12:50:28 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[08-Oct-2015 13:10:44 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[08-Oct-2015 13:12:02 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[08-Oct-2015 13:16:15 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Error processing your OAuth request: Invalid oauth_verifier parameter' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(19): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[26-Oct-2015 09:02:16 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Invalid request token.' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(20): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[26-Oct-2015 13:45:55 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Invalid request token.' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(20): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[26-Oct-2015 14:18:02 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Invalid request token.' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(20): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[26-Oct-2015 14:20:10 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Invalid request token.' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(20): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[26-Oct-2015 15:33:06 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Invalid request token.' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(20): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[26-Oct-2015 15:36:08 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Invalid request token.' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(20): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[26-Oct-2015 15:40:24 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Invalid request token.' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:145
+Stack trace:
+#0 /home/ivyprofiles/public_html/twitter/callback.php(20): TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 145
+[17-Dec-2015 11:14:07 UTC] PHP Fatal error:  Uncaught exception 'TwitterOAuthException' with message 'Couldn't resolve host 'api.twitter.com'' in /home/ivyprofiles/public_html/src/TwitterOAuth.php:407
+Stack trace:
+#0 /home/ivyprofiles/public_html/src/TwitterOAuth.php(341): TwitterOAuth->request('https://api.twi...', 'POST', 'Authorization: ...', Array)
+#1 /home/ivyprofiles/public_html/src/TwitterOAuth.php(142): TwitterOAuth->oAuthRequest('https://api.twi...', 'POST', Array)
+#2 /home/ivyprofiles/public_html/twitter/redirect.php(11): TwitterOAuth->oauth('oauth/request_t...', Array)
+#3 {main}
+  thrown in /home/ivyprofiles/public_html/src/TwitterOAuth.php on line 407
